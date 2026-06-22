@@ -8,6 +8,8 @@ import Card from './components/Card';
 import { propositos, alcances, componentesVisibles, principios, indicadores } from './data';
 import { cn } from './utils';
 import FormatosPage from './pages/FormatosPage';
+import DocumentReader from './pages/DocumentReader';
+import { ArrowRight, BookOpen } from 'lucide-react';
 
 function ImpactDashboard() {
   const categories = ['Entrada', 'Proceso', 'Resultado', 'Impacto'] as const;
@@ -262,6 +264,45 @@ function LandingPage() {
             </div>
           </div>
         </section>
+        {/* DOCUMENTOS SECTION */}
+        <section id="documentos" className="py-24 px-6 lg:px-8 bg-slate-50 border-t border-slate-200/50">
+          <div className="max-w-7xl mx-auto">
+            <div className="mb-16 md:text-center max-w-3xl mx-auto" data-aos="fade-up">
+              <span className="text-tbc-ventures font-semibold tracking-wider uppercase text-sm mb-4 block">Documentación</span>
+              <h2 className="font-display text-3xl md:text-4xl font-semibold text-slate-900 mb-6">Lectura Estratégica</h2>
+              <p className="text-slate-600 text-lg mb-8">Navega en detalle por los componentes del rediseño estratégico, académico y ecosistémico.</p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { id: 'diagnostico', title: 'Diagnóstico', desc: 'Evaluación del currículo actual y sus participantes.' },
+                { id: 'benchmarking', title: 'Benchmarking', desc: 'Análisis de referentes nacionales e internacionales.' },
+                { id: 'redefinicion', title: 'Propuesta de Valor', desc: 'Nueva promesa hacia el público externo e interno.' },
+                { id: 'modelo', title: 'Modelo de Programa', desc: 'Estructuración de las operaciones formativas.' },
+                { id: 'segmentacion', title: 'Segmentación', desc: 'Criterios de división según etapa de madurez.' },
+                { id: 'rutas', title: 'Diseño de Rutas', desc: 'Arquitectura de las vías operativas asignables.' },
+                { id: 'curriculo', title: 'Currículo por Sprints', desc: 'Estructura temporal intensiva focalizada al avance.' },
+                { id: 'capitulo', title: 'Capítulo de Libro', desc: 'Resumen teórico formalizado para divulgación externa.' }
+              ].map((doc, idx) => (
+                <a 
+                  key={doc.id} 
+                  href={`#/documentos/${doc.id}`}
+                  className="group bg-white p-8 rounded-3xl border border-slate-200/60 shadow-sm hover:shadow-md hover:border-tbc-advisory/30 transition-all duration-300"
+                  data-aos="fade-up" 
+                  data-aos-delay={(idx % 3) * 100}
+                >
+                  <BookOpen className="w-8 h-8 text-slate-400 group-hover:text-tbc-advisory transition-colors mb-6" />
+                  <h3 className="font-display font-semibold text-xl text-slate-900 mb-3 group-hover:text-tbc-advisory transition-colors">{doc.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-6">{doc.desc}</p>
+                  <span className="inline-flex items-center text-sm font-medium text-tbc-advisory gap-1 opacity-80 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                    Leer documento <ArrowRight size={16} />
+                  </span>
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
       </main>
 
       {/* FOOTER */}
@@ -288,6 +329,10 @@ export default function App() {
     // Also scroll on initial load
     window.scrollTo(0, 0);
   }, [hash]);
+
+  if (hash.startsWith('#/documentos')) {
+    return <DocumentReader />;
+  }
 
   if (hash === '#/formatos') {
     return <FormatosPage />;

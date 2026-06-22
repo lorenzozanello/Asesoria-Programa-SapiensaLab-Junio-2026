@@ -9,6 +9,7 @@ const navItems = [
   { href: '#componentes', label: 'Componentes' },
   { href: '#principios', label: 'Principios' },
   { href: '#impacto', label: 'Impacto' },
+  { href: '#documentos', label: 'Documentos' },
 ];
 
 export default function Navbar() {
