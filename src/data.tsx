@@ -47,7 +47,7 @@ export const propositos: CardItem[] = [
   {
     id: 'p3',
     title: 'Fortalecer la conexión con mercado',
-    description: 'SapienciaLab no solo debe enseñar emprendimiento: debe ayudar a salir al mercado.',
+    description: 'SapiensaLab no solo debe enseñar emprendimiento: debe ayudar a salir al mercado.',
     accent: 'orange',
     icon: Store,
     modalBody: <p>Validar clientes, hacer entrevistas, testear prototipos, lanzar pilotos, conseguir leads, vender, conectar con compradores y llegar al Demo Day con datos.</p>
@@ -79,7 +79,7 @@ export const propositos: CardItem[] = [
   {
     id: 'p7',
     title: 'Fortalecer comunidad, red y continuidad',
-    description: 'SapienciaLab debe convertirse en una comunidad viva: alumni, directorio, encuentros y ruedas de negocio.',
+    description: 'SapiensaLab debe convertirse en una comunidad viva: alumni, directorio, encuentros y ruedas de negocio.',
     accent: 'green',
     icon: Users,
     modalBody: <p>Integrar mentorías posprograma, showcase, compradores, aliados, comunidad digital y seguimiento a 3, 6 y 12 meses.</p>
@@ -99,7 +99,7 @@ export const alcances: CardItem[] = [
     id: 'a1',
     title: 'Alcance estratégico',
     eyebrow: 'Visión y Posicionamiento',
-    description: '¿Qué lugar quiere ocupar SapienciaLab dentro del ecosistema de emprendimiento universitario en Colombia y América Latina?',
+    description: '¿Qué lugar quiere ocupar SapiensaLab dentro del ecosistema de emprendimiento universitario en Colombia y América Latina?',
     accent: 'blue',
     icon: Target,
     modalBody: <p>Incluye propósito, propuesta de valor, públicos objetivo, diferenciadores, posicionamiento institucional, relación con egresados, relación con ecosistema, modelo de sostenibilidad e indicadores.</p>
@@ -135,7 +135,7 @@ export const alcances: CardItem[] = [
     id: 'a5',
     title: 'Alcance comercial, mercadeo y comunicación',
     eyebrow: 'Atracción',
-    description: '¿Cómo hacer que SapienciaLab sea deseable, claro y urgente para los emprendedores correctos?',
+    description: '¿Cómo hacer que SapiensaLab sea deseable, claro y urgente para los emprendedores correctos?',
     accent: 'orange',
     icon: Presentation,
     modalBody: <p>Incluye marca, narrativa, landing page, campañas, piezas publicitarias, embudo, segmentación, egresados, redes, email marketing, pauta, testimonios, masterclasses y referidos.</p>
@@ -144,7 +144,7 @@ export const alcances: CardItem[] = [
     id: 'a6',
     title: 'Alcance de ecosistema e impacto',
     eyebrow: 'Conexión',
-    description: '¿Cómo hacer que SapienciaLab no sea solo un programa, sino una plataforma de conexión, reputación y crecimiento?',
+    description: '¿Cómo hacer que SapiensaLab no sea solo un programa, sino una plataforma de conexión, reputación y crecimiento?',
     accent: 'blue',
     icon: Globe2,
     modalBody: <p>Incluye aliados, compradores, empresas, fondos, cámaras de comercio, universidades, alumni, Demo Day, ruedas de negocio, medición de impacto, reportes, casos de éxito y vigilancia tecnológica.</p>
@@ -256,13 +256,13 @@ export const principios: PrincipleItem[] = [
   { id: 'pr3', number: '03', title: 'Rutas diferenciadas', description: 'No se debe tratar igual a todos. El programa debe reconocer etapas, sectores, avance, capacidades del equipo, mercado y ambición.' },
   { id: 'pr4', number: '04', title: 'Mentoría con trazabilidad', description: 'Toda mentoría debe dejar acuerdos, tareas, decisiones y seguimiento. La inspiración es bienvenida, pero la trazabilidad paga la nómina.' },
   { id: 'pr5', number: '05', title: 'Mercado como aula', description: 'El cliente real debe ser parte del proceso educativo. El aula no puede ser el único espacio de aprendizaje.' },
-  { id: 'pr6', number: '06', title: 'Comunidad como activo', description: 'SapienciaLab debe crear vínculos fuertes y recurrentes entre participantes, mentores, egresados, aliados y compradores.' },
+  { id: 'pr6', number: '06', title: 'Comunidad como activo', description: 'SapiensaLab debe crear vínculos fuertes y recurrentes entre participantes, mentores, egresados, aliados y compradores.' },
   { id: 'pr7', number: '07', title: 'Tecnología como acelerador', description: 'La tecnología y la IA deben acelerar investigación, prototipado, ventas, automatización, medición y decisiones de los emprendimientos.' },
   { id: 'pr8', number: '08', title: 'Simplicidad operativa', description: 'El rediseño debe ser ambicioso, pero ejecutable. Mejor un sistema simple que se cumpla que una arquitectura que muera en la fricción.' },
   { id: 'pr9', number: '09', title: 'Medición desde el inicio', description: 'Los indicadores deben diseñarse desde el comienzo para orientar decisiones, no aparecer al final para elaborar informes.' },
-  { id: 'pr10', number: '10', title: 'Inclusión y diversidad emprendedora', description: 'SapienciaLab debe reconocer y potenciar emprendimientos tradicionales, digitales, sociales, científicos, ambientales, y creativos.' },
+  { id: 'pr10', number: '10', title: 'Inclusión y diversidad emprendedora', description: 'SapiensaLab debe reconocer y potenciar emprendimientos tradicionales, digitales, sociales, científicos, ambientales, y creativos.' },
   { id: 'pr11', number: '11', title: 'Impacto con sustentabilidad', description: 'El programa debe sostener su vocación universitaria, pero mejorar su modelo económico diversificando formatos de interacción.' },
-  { id: 'pr12', number: '12', title: 'Prestigio Javeriano como ventaja', description: 'SapienciaLab debe apoyarse en la calidad académica, reputación, infraestructura y conexión interdisciplinaria de la Universidad.' }
+  { id: 'pr12', number: '12', title: 'Prestigio Javeriano como ventaja', description: 'SapiensaLab debe apoyarse en la calidad académica, reputación, infraestructura y conexión interdisciplinaria de la Universidad.' }
 ];
 
 export const indicadores: IndicatorItem[] = [

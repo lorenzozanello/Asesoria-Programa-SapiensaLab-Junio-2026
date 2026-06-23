@@ -69,14 +69,14 @@ function LandingPage() {
             </div>
             
             <h1 data-aos="fade-up" className="font-display text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-4">
-              SapienciaLab
+              SapiensaLab
             </h1>
             <p data-aos="fade-up" data-aos-delay="100" className="text-xl sm:text-2xl font-medium text-slate-300 mb-8 max-w-3xl font-display">
-              Estudio Javeriano de Emprendimiento e Innovación Empresarial
+              Red de Extensión Universitaria para el Emprendimiento
             </p>
             
             <p data-aos="fade-up" data-aos-delay="200" className="text-lg sm:text-xl text-slate-400 max-w-4xl leading-relaxed mb-10">
-              De programa de acompañamiento a plataforma de aceleración, conexión e impacto. Acompañamos emprendimientos en distintas etapas para validar mercado, fortalecer modelos de negocio, activar canales comerciales y medir resultados.
+              Egresados javerianos y comunidad externa emprendiendo con método, comunidad e impacto.
             </p>
             
             <div data-aos="fade-up" data-aos-delay="300" className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -97,16 +97,16 @@ function LandingPage() {
             <div data-aos="fade-right" className="mb-12">
               <span className="text-tbc-advisory font-semibold tracking-wider uppercase text-sm mb-4 block">Propósito General</span>
               <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight text-slate-900">
-                Rediseñar SapienciaLab para transformarlo de un programa de formación en una plataforma integral de aceleración.
+                Rediseñar SapiensaLab para transformarlo de un programa de formación en una plataforma integral de aceleración.
               </h2>
             </div>
             
             <div data-aos="fade-up" className="prose prose-lg prose-slate max-w-none text-slate-600 mb-16">
               <p>
-                Buscamos generar resultados medibles en validación, ventas, formalización, crecimiento, innovación e impacto social, ambiental y económico.
+                SapiensaLab es una red de extensión universitaria de la Pontificia Universidad Javeriana que articula formación, mentoría, comunidad, aliados y capacidades institucionales para acompañar trayectorias emprendedoras de egresados javerianos y comunidad externa. Desde la Responsabilidad Social Universitaria, promueve el emprendimiento como una vía de aprendizaje permanente, desarrollo profesional, autonomía económica y generación de impacto social.
               </p>
               <blockquote className="border-l-4 border-tbc-advisory pl-6 py-2 my-8 text-xl font-medium text-slate-800 italic bg-slate-50/50 rounded-r-lg">
-                Que SapienciaLab deje de ser percibido solo como “un curso con mentorías” y pase a operar como una experiencia de aceleración emprendedora con método, comunidad, datos, mercado y resultados.
+                Que SapiensaLab deje de ser percibido solo como “un curso con mentorías” y pase a operar como una experiencia de aceleración emprendedora con método, comunidad, datos, mercado y resultados.
               </blockquote>
             </div>
 
@@ -118,7 +118,7 @@ function LandingPage() {
                 <div>
                   <h4 className="text-tbc-advisory font-medium mb-4 flex items-center gap-2">
                     <span className="w-6 h-6 rounded-full bg-tbc-advisory/20 flex items-center justify-center text-xs">1</span>
-                    Si SapienciaLab combina...
+                    Si SapiensaLab combina...
                   </h4>
                   <ul className="space-y-2 text-slate-300 text-sm">
                     <li>Diagnóstico de madurez</li>
@@ -253,7 +253,7 @@ function LandingPage() {
         {/* CONTACTO / CIERRE SECTION */}
         <section id="contacto" className="py-24 px-6 lg:px-8 bg-tbc-base text-white text-center">
           <div className="max-w-4xl mx-auto" data-aos="zoom-in">
-            <h2 className="font-display text-3xl md:text-5xl font-semibold mb-6">El nuevo SapienciaLab no termina en la clausura.</h2>
+            <h2 className="font-display text-3xl md:text-5xl font-semibold mb-6">SapiensaLab: red javeriana de extensión universitaria para emprender con método, comunidad e impacto.</h2>
             <p className="text-lg md:text-xl text-slate-300 md:max-w-2xl mx-auto mb-10 leading-relaxed">
               El rediseño lo convierte en una plataforma viva de aceleración, comunidad, mercado, tecnología e impacto. Una experiencia capaz de conectar capacidades Javerianas con oportunidades reales.
             </p>
@@ -281,8 +281,7 @@ function LandingPage() {
                 { id: 'modelo', title: 'Modelo de Programa', desc: 'Estructuración de las operaciones formativas.' },
                 { id: 'segmentacion', title: 'Segmentación', desc: 'Criterios de división según etapa de madurez.' },
                 { id: 'rutas', title: 'Diseño de Rutas', desc: 'Arquitectura de las vías operativas asignables.' },
-                { id: 'curriculo', title: 'Currículo por Sprints', desc: 'Estructura temporal intensiva focalizada al avance.' },
-                { id: 'capitulo', title: 'Capítulo de Libro', desc: 'Resumen teórico formalizado para divulgación externa.' }
+                { id: 'curriculo', title: 'Currículo por Sprints', desc: 'Estructura temporal intensiva focalizada al avance.' }
               ].map((doc, idx) => (
                 <a 
                   key={doc.id} 

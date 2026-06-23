@@ -70,7 +70,7 @@ export default function DocumentReader() {
       {/* Mobile Header */}
       <div className="lg:hidden fixed top-0 inset-x-0 h-16 bg-white border-b border-slate-200 z-50 flex items-center justify-between px-4">
         <a href="#/" className="font-display font-bold text-lg flex items-center gap-2 text-slate-900">
-           <ArrowLeft size={18} /> SapienciaLab
+           <ArrowLeft size={18} /> SapiensaLab
         </a>
         <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="p-2 text-slate-600">
           {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}

@@ -38,10 +38,10 @@ export default function Navbar() {
       <div className="w-full max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
         <div className="flex flex-col">
           <a href="#inicio" className="font-display font-bold text-xl tracking-tight text-slate-900 flex items-center gap-2" aria-label="Volver a inicio">
-            <span>SapienciaLab</span>
+            <span>SapiensaLab</span>
           </a>
           <span className="text-[10px] sm:text-xs font-medium text-slate-500 hidden sm:block">
-            Estudio Javeriano de Emprendimiento e Innovación
+            Red de Extensión Universitaria
           </span>
         </div>
 
